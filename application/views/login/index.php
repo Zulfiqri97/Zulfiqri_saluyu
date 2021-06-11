@@ -18,7 +18,7 @@
 
   <style type="text/css">
     .login-box {
-      padding-top: 70px;
+      padding-top: auto;
       margin : 0 auto;
     }
     body {
