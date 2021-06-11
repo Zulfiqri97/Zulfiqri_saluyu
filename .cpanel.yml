@@ -15,4 +15,3 @@ deployment:
     - /bin/cp LICENSE $DEPLOYPATH
     - /bin/cp readme.rst $DEPLOYPATH
     - /bin/cp .editorconfig $DEPLOYPATH
-    - /bin/cp .zulfiqri.html $DEPLOYPATH
