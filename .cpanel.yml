@@ -11,6 +11,7 @@ deployment:
     - /bin/cp .htaccess $DEPLOYPATH
     - /bin/cp composer.json $DEPLOYPATH
     - /bin/cp contributing.md $DEPLOYPATH
+    - /bin/cp index.php $DEPLOYPATH
     - /bin/cp license.txt $DEPLOYPATH
     - /bin/cp LICENSE $DEPLOYPATH
     - /bin/cp readme.rst $DEPLOYPATH
