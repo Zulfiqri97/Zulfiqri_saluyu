@@ -35,7 +35,7 @@
   <div class="card">
     <div class="card-body login-card-body">
       <div class="login-logo">
-        <strong>Saluyu Sistem Information</strong>
+        <strong>CV.Saluyu</strong>
       </div>
       <!-- /.login-logo -->
       <?php if($message != null) { echo "<p class='text text-danger text-center'>".$message."</p>"; } ?>
@@ -60,7 +60,7 @@
         <div class="row">
           <!-- /.col -->
           <div class="col-12">
-            <button type="submit" class="btn btn-primary btn-block">Masuk</button>
+            <button type="submit" class="btn btn-primary btn-block">Login</button>
           </div>
           <!-- /.col -->
         </div>
