@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="<?php echo base_url('assets/images/logo1.png'); ?>" rel="icon">
-  <title>Saluyu</title>
+  <title>Saluyu Sistem Information</title>
 
 
   <!-- Google Font: Source Sans Pro -->
@@ -35,7 +35,7 @@
   <div class="card">
     <div class="card-body login-card-body">
       <div class="login-logo">
-        <strong>CV.Saluyu</strong>
+        <strong>Saluyu Sistem Information</strong>
       </div>
       <!-- /.login-logo -->
       <?php if($message != null) { echo "<p class='text text-danger text-center'>".$message."</p>"; } ?>
