@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="<?php echo base_url('assets/images/logo1.png'); ?>" rel="icon">
-  <title>Saluyu Sistem Information</title>
+  <title>CV.Saluyu</title>
 
 
   <!-- Google Font: Source Sans Pro -->
