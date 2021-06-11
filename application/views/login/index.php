@@ -22,7 +22,7 @@
       margin : 0 auto;
     }
     body {
-      background-image: url("<?= base_url('assets/images/market.jpg'); ?>");
+      background-image: url("<?= base_url('assets/images/login1.jpg'); ?>");
       background-position: center;
       background-repeat: no-repeat;
       background-size: 100%;
