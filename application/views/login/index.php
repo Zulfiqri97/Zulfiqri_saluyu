@@ -30,7 +30,7 @@
     }
   </style>
 </head>
-<body class="hold-transition login-page"  style="background: rgba(0, 0, 0, 0.5);">
+<body class="hold-transition login-page">
 <div class="login-box">
   <div class="card">
     <div class="card-body login-card-body">
