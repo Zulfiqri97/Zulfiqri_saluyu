@@ -64,11 +64,12 @@
           </div>
           <!-- /.col -->
         </div>
-        <footer class="main-footer">
+        <br>
+        
     <div class="float-right d-none d-sm-block">     
     </div>
     <strong>Copyright &copy;2021 <a href="https://www.instagram.com/zufieee/" target="blank">Zufieee</a>.</strong> All rights reserved.
-  </footer>
+  
       </form>
 
       <!-- <div class="social-auth-links text-center mb-3">
