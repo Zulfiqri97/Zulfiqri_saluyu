@@ -68,7 +68,7 @@
         
     <div class="float-right d-none d-sm-block">     
     </div>
-    <strong>Copyright &copy;2021 <a href="https://www.instagram.com/zufieee/" target="blank">Zufieee</a>.</strong> All rights reserved.
+    <strong>Copyright &copy;2021 <a href="https://www.instagram.com/zufieee/" target="blank">Zulfiqri</a>.</strong> All rights reserved.
   
       </form>
 
