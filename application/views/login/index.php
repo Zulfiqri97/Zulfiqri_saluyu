@@ -22,7 +22,7 @@
       margin : 0 auto;
     }
     body {
-      background-image: url("<?= base_url('assets/images/login5.jpg'); ?>");
+      background-image: url("<?= base_url('assets/images/login1.jpg'); ?>");
       background-position: center;
       background-repeat: no-repeat;
       background-size: 100%;
@@ -35,7 +35,7 @@
   <div class="card">
     <div class="card-body login-card-body">
       <div class="login-logo">
-        <!-- <strong>Cv.Saluyu</strong> -->
+        <strong style="color: cornflowerblue;">Cv.Saluyu</strong>
       </div>
       <!-- /.login-logo -->
       <?php if($message != null) { echo "<p class='text text-danger text-center'>".$message."</p>"; } ?>
