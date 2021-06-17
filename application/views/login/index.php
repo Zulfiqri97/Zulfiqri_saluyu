@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="<?php echo base_url('assets/images/saluyu.png'); ?>" rel="icon">
+  <link href="<?php echo base_url('assets/images/saluyu1.png'); ?>" rel="icon">
   <title>CV.Saluyu</title>
 
 
@@ -22,7 +22,7 @@
       margin : 0 auto;
     }
     body {
-      background-image: url("<?= base_url('assets/images/saluyu.png'); ?>");
+      background-image: url("<?= base_url('assets/images/login3.png'); ?>");
       background-position: center;
       background-repeat: no-repeat;
       background-size: 100%;

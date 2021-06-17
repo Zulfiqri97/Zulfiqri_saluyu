@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="<?php echo base_url('assets/images/saluyu.png'); ?>" rel="icon">
+  <link href="<?php echo base_url('assets/images/saluyu1.png'); ?>" rel="icon">
   <title>Cv.Saluyu</title>
 
   <!-- Google Font: Source Sans Pro -->
