@@ -22,7 +22,7 @@
       margin : 0 auto;
     }
     body {
-      background-image: url("<?= base_url('assets/images/login3.png'); ?>");
+      background-image: url("<?= base_url('assets/images/login3.jpg'); ?>");
       background-position: center;
       background-repeat: no-repeat;
       background-size: 100%;
