@@ -35,7 +35,7 @@
   <div class="card">
     <div class="card-body login-card-body">
       <div class="login-logo">
-        <strong style="color: cornflowerblue;">Cv.Saluyu</strong>
+        <strong style="font-family: monospace;">Saluyu System Information</strong>
       </div>
       <!-- /.login-logo -->
       <?php if($message != null) { echo "<p class='text text-danger text-center'>".$message."</p>"; } ?>
