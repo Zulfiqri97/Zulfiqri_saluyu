@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="<?php echo base_url('assets/images/saluyu1.png'); ?>" rel="icon">
-  <!-- <title>CV.Saluyu</title> -->
+  <title>CV.Saluyu</title>
 
 
   <!-- Google Font: Source Sans Pro -->
@@ -22,7 +22,7 @@
       margin : 0 auto;
     }
     body {
-      background-image: url("<?= base_url('assets/images/login3.jpg'); ?>");
+      background-image: url("<?= base_url('assets/images/login4.jpg'); ?>");
       background-position: center;
       background-repeat: no-repeat;
       background-size: 100%;
@@ -35,7 +35,7 @@
   <div class="card">
     <div class="card-body login-card-body">
       <div class="login-logo">
-        <strong>Cv.Saluyu</strong>
+        <!-- <strong>Cv.Saluyu</strong> -->
       </div>
       <!-- /.login-logo -->
       <?php if($message != null) { echo "<p class='text text-danger text-center'>".$message."</p>"; } ?>
