@@ -238,31 +238,7 @@
             </ul>
           </li>
           <?php if ($this->session->userdata('is_employee_read')) { ?>
-          <li class="nav-item">
-            <a href="#" class="nav-link">
-              <i class="nav-icon fas fa-users"></i>
-              <p>
-                Karyawan
-                <i class="right fas fa-angle-left"></i>
-              </p>
-            </a>
-            <!-- <ul class="nav nav-treeview">
-              <li class="nav-item">
-                <a href="<?= base_url("employee") ?>" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Data Karyawan</p>
-                </a>
-              </li>
-            </ul> -->
-            <ul class="nav nav-treeview">
-              <li class="nav-item">
-                <a href="<?= base_url("user") ?>" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Data User</p>
-                </a>
-              </li>
-            </ul>
-          </li>
+         
           <?php } ?>
           <?php if ($this->session->userdata('user_type') == 'super admin' || $this->session->userdata('user_type') == 'admin') { ?>
           <li class="nav-item">
