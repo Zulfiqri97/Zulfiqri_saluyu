@@ -26,7 +26,7 @@ date_default_timezone_set("Asia/Jakarta");
 |
 */
 // $config['base_url'] = 'http://localhost:8888/saluyu-information-system';
-// $config['base_url'] = 'https://zuesiabfor.xyz';
+$config['base_url'] = 'https://zuesiabfor.xyz';
 // $config['base_url'] = 'https://saluyubrother.000webhostapp.com';
 
 /*
