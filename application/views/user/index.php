@@ -61,7 +61,7 @@
                         <?php if ($this->session->userdata('is_employee_write')) { ?>
                           <td>
                             <div class="btn-group">
-                              <a href="<?= base_url("user/edit?id=".$record->id) ?>" type="button" class="btn btn-outline-primary btn-sm">Ubah</a>
+                              <a href="<?= base_url("user/edit?id=".$record->id) ?>" type="button" class="btn btn-primary btn-sm">Ubah</a>
                               <a href="<?= base_url("user/delete?id=".$record->id."&status=".$record->status) ?>" onclick="return confirm('Yakin <?= ($record->status) ? "menonaktifkan" : "mengaktifkan"; ?> user ini?');" type="button" class="btn <?= ($record->status) ? 'btn-outline-danger' : 'btn-outline-success'  ?> btn-sm"><?= ($record->status) ? "Non Aktifkan" : "Aktifkan"; ?></a>
                             </div>
                           </td>
