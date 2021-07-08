@@ -17,7 +17,7 @@
       </div><!-- /.container-fluid -->
     </section>
 
-    <!-- Main content --> bedakan super admin
+    <!-- Main content -->
     <section class="content">
       <div class="container-fluid">
         <div class="row">
