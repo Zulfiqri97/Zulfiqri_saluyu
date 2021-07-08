@@ -33,7 +33,7 @@
               </div>
               <!-- /.card-header -->
               <div class="card-body">
-               <!-- menambahkan pungsi prin tambahkan (id example1) -->
+               <!-- menambahkan pungsi prin tambahkan (id example) -->
                 <table id="" class="table table-bordered table-striped">
                   <thead>
                   <tr>
