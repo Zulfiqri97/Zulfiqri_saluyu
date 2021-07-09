@@ -83,7 +83,7 @@
       })
     <?php } ?>
 
-    // "buttons": ["copy", "csv", "excel", "pdf", "print", "colvis"]
+    "buttons": ["copy", "csv", "excel", "pdf", "print", "colvis"]
 
     $("#example1").DataTable({
       "responsive": false, "lengthChange": false, "autoWidth": false, "scrollX": true,
