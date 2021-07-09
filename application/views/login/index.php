@@ -60,7 +60,7 @@
         <div class="row">
           <!-- /.col -->
           <div class="col-12">
-            <button type="submit" class="btn btn-primary btn-block">tes</button>
+            <button type="submit" class="btn btn-primary btn-block">testing</button>
           </div>
           <!-- /.col -->
         </div>
