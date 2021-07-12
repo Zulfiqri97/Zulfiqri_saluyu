@@ -30,7 +30,7 @@ class Auth extends CI_Controller {
 
 		$where = array(
 			'username' => $username,
-			'password' => md5($password)
+			'password' => md5($password),
 			'status' => true
 		);
 
