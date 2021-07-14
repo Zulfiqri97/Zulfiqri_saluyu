@@ -39,7 +39,7 @@ table thead td { background-color: #EEEEEE;
 </head>
 <body>
 <div style="text-align: center;">
-          <img src="<?= base_url('assets/dist/img/logoku.png'); ?>" style="height: 25%;">
+          <img src="<?= base_url('assets/dist/img/saluyu1.png'); ?>" style="height: 25%;">
           <div>Ujung Harapan Rt001/014 Bahagia Babelan Bekasi</div>
           <div style="font-family:dejavusanscondensed;">&#9742;</span> 081999239325</div>    
 </div> 
