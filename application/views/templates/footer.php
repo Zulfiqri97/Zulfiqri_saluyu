@@ -85,7 +85,7 @@
 
     $("#example1").DataTable({
       "responsive": false, "lengthChange": false, "autoWidth": false, "scrollX": true,
-      "buttons": ["pdf","print","csv","copy","excel","colvis"]
+      "buttons": ["pdf","print","excel","colvis"]
     }).buttons().container().appendTo('#example1_wrapper .col-md-6:eq(0)');
     
     $('#example2').DataTable({
