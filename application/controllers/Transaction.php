@@ -177,6 +177,16 @@ class Transaction extends CI_Controller {
 		$this->load->view('templates/footer');
 	}
 
+	//menambahkan fitur mpdf
+	public function mpdf(){
+		$mpdf = new \Mpdf\Mpdf();
+		$records = $this->m_transaction->getDataMpdf();
+		$data = $this->load->view('export_pdf.php',['records' => $records], TRUE);
+		$mpdf->WriteHTML($data);
+		$mpdf->Output();
+	
+	}
+
 }
 
 /* End of file transaction.php */

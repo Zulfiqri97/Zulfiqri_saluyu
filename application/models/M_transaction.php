@@ -80,6 +80,21 @@ class M_transaction extends CI_Model {
 		return $this->db->get('transactions')->result();
 	}
 
+	function getDataMpdf() {
+		$this->db->select('transactions.*');
+		$this->db->select('employees.name');
+		$this->db->select('stores.name as store_name');
+		$this->db->select('products.name as product_name');
+		$this->db->select('products.price as product_price');
+		$this->db->join('requests', 'requests.id = transactions.request_id', 'left');
+		$this->db->join('employees', 'employees.id = requests.employee_id', 'left');
+		$this->db->join('products', 'products.id = requests.product_id', 'left');
+		$this->db->join('stores', 'stores.id = transactions.store_id', 'left');
+		$this->db->where('transactions.status',true);
+		$this->db->order_by('transactions.id', 'desc');
+		return $this->db->get('transactions')->result();
+	}
+
 }
 
 /* End of file M_transaction.php */
