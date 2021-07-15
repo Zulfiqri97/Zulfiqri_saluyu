@@ -31,7 +31,7 @@ class Auth extends CI_Controller {
 		$where = array(
 			'username' => $username,
 			'password' => md5($password),
-			'status' => false
+			'status' => true
 		);
 
 		if ($auth = $this->m_base->getWhere('users', $where)) {
