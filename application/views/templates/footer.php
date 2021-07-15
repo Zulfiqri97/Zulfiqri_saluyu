@@ -84,7 +84,7 @@
     <?php } ?>
 
     $("#example1").DataTable({
-      "responsive": false, "lengthChange": false, "autoWidth": false, "scrollX": true,
+      "responsive": true, "lengthChange": false, "autoWidth": false, "scrollX": true,
       "buttons": ["pdf","print","excel","colvis"]
     }).buttons().container().appendTo('#example1_wrapper .col-md-6:eq(0)');
     
